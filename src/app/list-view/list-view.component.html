@@ -1,0 +1,15 @@
+  <div class="container">
+      <div class="row">
+          <div class="col-md-6 offset-md-3">                
+            <div class="btn btn-primary btn-block" click="logOut()">List View</div>
+              <li *ngFor="let item of listItem; let i = index;" 
+              [class.selected]="item === selectedItem" 
+              (click)="onSelect(item)">
+              <img src="{{item.image}}" class="diamond">{{item.name}} {{item.id}}
+              <span *ngIf="item.selected" class="trash">
+                  <img src='././assets/trash.PNG' (click)="delete(item, i)">
+                </span>
+            </li> 
+         </div>
+      </div>
+  </div>

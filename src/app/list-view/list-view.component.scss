@@ -1,0 +1,36 @@
+li {
+    cursor: pointer;
+    position: relative;
+    left: 0;
+    margin: .5em;
+    padding: .3em 0;
+    height: auto;
+    border-radius: 4px;
+    list-style: none;
+    line-height: 83px;    
+}
+.diamond {
+    display: inline-block;    
+    margin-right: 20px; 
+}
+.trash {
+    display: inline-block;
+    float: right;
+    position: relative;
+    right: 0;
+    top: 0;
+}
+.selected {
+    background-color: #CFD8DC !important;
+    color: white;
+}
+.items {
+    margin: 0 0 2em 0;
+    list-style-type: none;
+    padding: 0;
+    width: 15em;
+    height: 83px;
+}
+.btn.btn-primary.btn-block {
+    font-size: 1.5rem;
+}
