@@ -1,7 +1,6 @@
 # Angular 6 Demo with Reactive Forms & Validators
 
 <img src="screenshot1.PNG" height="400" alt="Screenshot 1"/> 
-<img src="screenshot2.PNG" height="400" alt="Screenshot 2"/> 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.3.
 
